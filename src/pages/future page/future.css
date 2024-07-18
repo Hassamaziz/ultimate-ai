@@ -1,0 +1,18 @@
+.future__section{
+    display: flex;
+    flex-direction: column;
+}
+
+.future__h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.future__row{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

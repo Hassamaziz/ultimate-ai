@@ -1,0 +1,32 @@
+/* home.css */
+
+
+
+.btn__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row__main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.container {
+    text-align: center;
+}
+
+.home__h1-text {
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.home__text {
+    text-align: center;
+    color: #fff;
+}

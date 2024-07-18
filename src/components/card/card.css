@@ -1,0 +1,76 @@
+/* card.css */
+.card-title {
+    color: #fff;
+    font-size: 1em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #452c2c;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    overflow: hidden;
+    bottom: 0;  
+    right: 0;
+    background: #06B2B8;
+    border-radius: 50px 5px 0px 5px;  /* Adjust the border-radius for bottom-right corner */
+  }
+  
+  .go-arrow {
+    margin-bottom: -4px;  
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .card {
+    display: block;
+    position: relative;
+    max-width: 300px;
+    max-height: 320px;
+    background-color: #f2f8f9;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background:#00CED5;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+
+  
+  .button {
+    position: relative;
+    background-color: #06B2B8;
+    border-radius: 50%; 
+    box-shadow: rgb(86, 125, 141) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 49px; 
+    height: 49px;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+  
+ 
+  
